@@ -1,0 +1,11 @@
+1.创建账号，建立仓库。
+2.把云端和本地连接：在git bush中输入ssh-keygen -t rsa命令。找到.ssh文件id——rsa
+.pub的密匙，复制到网页上相应位置。
+3.把github上的read么文件下载下本地在一个文件夹储存，然后右键文件点击git bush。
+      （1）git config --global user.email"邮箱"
+      （2）git config --global user.name"用户名"
+      （3）git clone"仓库里相应readme文件的ssh位置"
+         （4）cat README.md   查看文件
+         （5）vim README.md   查看文件
+         （6）git add README.md 更新内容   git commit -m  更新原因（相当于注释）git push  上传。
+         建议：把这些步骤整理一下相当于教材自己消化。
